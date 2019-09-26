@@ -1,0 +1,35 @@
+body {
+    background-color:rgb(240,240,240);
+}
+
+/* navigation */ 
+
+.navbar-colour-edit {
+    background-color:#65d66a;
+    box-shadow:1px 1px 3px 3px rgb(210,210,210);
+}
+
+/* profile (main)  */ 
+
+.profile-picture {
+    border-radius:10px 0px 0px 0px;
+    border:solid white 4px;
+    border-right:none;
+    border-bottom:none;
+
+}
+
+.profile-name-stats {
+    border-radius:0px 10px 0px 0px;
+    background-color:white;
+}
+
+.star-colour {
+    color:#65d66a;
+}
+
+.profile-description {
+    border-radius:0px 0px 10px 10px;
+    background-color:white;
+
+}
