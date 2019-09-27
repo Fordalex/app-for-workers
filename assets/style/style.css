@@ -30,6 +30,10 @@ body {
     color:#77e6b1;
 }
 
+.primary-colour-text {
+    color:#59ac84;
+}
+
 .secondary-green {
     color:#f0cb81;
 }
@@ -70,6 +74,14 @@ body {
 }
 
 /* home page */
+
+/* ads */
+
+.image-ad {
+    width:100%;
+    border-radius:5px;
+}
+
 
 
 /* footer */
