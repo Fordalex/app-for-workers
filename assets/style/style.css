@@ -1,35 +1,66 @@
 body {
-    background-color:rgb(240,240,240);
+    background: linear-gradient(to bottom, #ffffff 0%, #dedede 100%);
 }
 
 /* navigation */ 
 
 .navbar-colour-edit {
-    background-color:#65d66a;
+    background-color:#77e6b1;
     box-shadow:1px 1px 3px 3px rgb(210,210,210);
 }
 
-/* profile (main)  */ 
+/* profile   */ 
 
 .profile-picture {
-    border-radius:10px 0px 0px 0px;
+    border-radius:10px 0px 0px 0px;    
     border:solid white 4px;
     border-right:none;
     border-bottom:none;
-
+    width:100%;
 }
 
-.profile-name-stats {
-    border-radius:0px 10px 0px 0px;
+.section-container {
+    width:100%;
     background-color:white;
+    border-radius:10px;
+    box-shadow:1px 1px 3px 3px rgb(210,210,210);
 }
 
-.star-colour {
-    color:#65d66a;
+.primary-colour {
+    color:#77e6b1;
+}
+
+.secondary-green {
+    color:#f0cb81;
+}
+
+.star-none {
+    color:lightgray;
 }
 
 .profile-description {
     border-radius:0px 0px 10px 10px;
     background-color:white;
 
+}
+
+.profile-buttons {
+    border-radius:9px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:92%;
+    height:50px;
+    background: linear-gradient(to bottom, #ffffff 0%, #d6d6d6 100%);
+    
+}
+
+.profile-buttons-icon {
+    color:#f0ca65;
+    font-size:20px;
+}
+
+.photo-review-image {
+    width:100%;
+    border-radius:4px;
 }

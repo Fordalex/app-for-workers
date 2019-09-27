@@ -33,6 +33,8 @@
 
 <body>
 
+    <!-- Navigation -->
+
     <nav class="navbar navbar-expand-lg navbar-light navbar-colour-edit">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,31 +66,103 @@
         </div>
     </nav>
 
+    <!-- // Navigation -->
 
-    <main class="p-4">
-        <div class="row">
-            <div class="col-4 m-0 p-0">
-                <section>
-                    <img src="assets/images/woman-profile.jpg" class="profile-picture" width="100%">
-                </section>
+    <!-- Profile picture and information -->
+
+    <section class="p-3">
+        <div class="section-container">
+            <div class="row m-0 p-0">
+                <div class="col-4 m-0 p-0">
+                    <img src="assets/images/woman-profile.jpg" class="profile-picture">
+                </div>
+                <div class="col-8 m-0 p-2">
+                    <h5 class="mt-1">Mrs Abigail Smith</h5>
+                    <i class="fas fa-star primary-colour"></i>
+                    <i class="fas fa-star primary-colour"></i>
+                    <i class="fas fa-star-half-alt primary-colour"></i>
+                    <i class="far fa-star star-none"></i>
+                    <i class="far fa-star star-none"></i>
+                    <p class="text-secondary mt-2 m-0 p-0">Lawyer</p>
+                </div>
             </div>
-            <div class="col-8 m-0 p-2 profile-name-stats">
-                <h4>Mrs Abigail Smith</h4>
-                <i class="fas fa-star star-colour"></i>
-                <i class="fas fa-star star-colour"></i>
-                <i class="fas fa-star-half-alt star-colour"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <p class="text-secondary mt-2 mb-0">Lawyer</p>
+            <div class="row m-0 p-0">
+                <div class="col-12 p-2 m-0">
+                    <p class="m-0">I'm not very good at my job, Your probably best off asking someone else tbf...</p>
+                    <p class="m-0 p-0 d-flex justify-content-end text-black-50">See More</p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 p-2 profile-description">
-                I'm not very good at my job, your probably best asking someone else tbf...
+    </section>
+
+    <!-- // Profile picture and information -->
+
+    <!-- Profile contact buttons and likes -->
+
+    <section class="pl-3 pr-3 pb-3">
+        <div class="section-container">
+            <div class="row p-2">
+                <div class="col-6">
+                    <p class="m-0">Likes: <span class="text-black-50">12</span></p>
+                    <p class="m-0">Followers: <span class="text-black-50">55</span></p>
+                </div>
+                <div class="col-6">
+                    <p class="m-0">Jobs Completed: <span class="text-black-50">3</span</p>
+                        <p class="m-0">Reviews: <span class="text-black-50">2</span</p>
+                </div>
             </div>
         </div>
+    </section>
 
-    </main>
+    <section class="pl-3 pr-3">
+        <div class="row m-0 p-0">
+            <div class="col-4 m-0 p-0 d-flex justify-content-start">
+                <div class="profile-buttons">
+                    <i class="fas fa-mobile-alt profile-buttons-icon"></i>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0 d-flex justify-content-center">
+                <div class="profile-buttons">
+                    <i class="far fa-envelope profile-buttons-icon"></i>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0 d-flex justify-content-end">
+                <div class="profile-buttons">
+                    <i class="far fa-thumbs-up profile-buttons-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- //Profile contact buttons and likes -->
+
+    <section class="p-3">
+        <div class="row m-0 p-0">
+            <div class="col-12 m-0 p-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9490.248411704666!2d-1.3431636528854678!3d53.51201739015133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879717e716b743d%3A0xb20d41f201007b3d!2sRotherham%20S63%205DJ!5e0!3m2!1sen!2suk!4v1569531637965!5m2!1sen!2suk"
+                    width="100%" height="100" frameborder="0" style="border:0; border-radius:10px;"
+                    allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row m-0 pl-3 pr-3 pb-3">
+            
+            <div class="col-6 section-container">
+                <h4 class="text-center">Photos</h4>
+                <img src="assets/images/lawyer-image.jpg" class="photo-review-image mb-3">
+            </div>
+            <div class="col-6 section-container">
+                    <h4 class="text-center">Reviews</h4>
+                    <p>Never again.</p>
+                    <p>I got sent down for three years.</p>
+                </div>
+        </div>
+    </section>
+
+
 
 
 
