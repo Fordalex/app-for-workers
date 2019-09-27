@@ -86,7 +86,12 @@ body {
     border-radius:5px;
 }
 
+/* inbox.html */
 
+.message-container {
+    height:160px;
+    overflow:hidden;
+}
 
 /* footer */
 
