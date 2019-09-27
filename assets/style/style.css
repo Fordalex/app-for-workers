@@ -31,7 +31,7 @@ body {
 }
 
 .primary-colour-text {
-    color:#59ac84;
+    color:#77e6b1;
 }
 
 .secondary-green {
@@ -55,7 +55,7 @@ body {
     align-items:center;
     width:92%;
     height:50px;
-    background: linear-gradient(to bottom, #ffffff 0%, #d6d6d6 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
     
 }
 
