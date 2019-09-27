@@ -6,10 +6,10 @@ body {
 
 .navbar-colour-edit {
     background-color:#77e6b1;
-    box-shadow:1px 1px 3px 3px rgb(210,210,210);
+    box-shadow:1px 1px 3px 3px rgba(210,210,210,0.6);
 }
 
-/* profile   */ 
+/* profile page */ 
 
 .profile-picture {
     border-radius:10px 0px 0px 0px;    
@@ -23,7 +23,7 @@ body {
     width:100%;
     background-color:white;
     border-radius:10px;
-    box-shadow:1px 1px 3px 3px rgb(210,210,210);
+    box-shadow:1px 1px 3px 3px rgba(210,210,210,0.6);
 }
 
 .primary-colour {
@@ -56,11 +56,32 @@ body {
 }
 
 .profile-buttons-icon {
-    color:#f0ca65;
+    color:#77e6b1;
     font-size:20px;
 }
 
 .photo-review-image {
     width:100%;
     border-radius:4px;
+}
+
+.full-height {
+    height:100%;
+}
+
+/* home page */
+
+
+/* footer */
+
+.footer {
+    height:60px;
+    width:100%;
+    background-color:#42b880;
+    padding:18px;
+}
+
+.footer-icons {
+    font-size:18px;
+    color:#0e4229;
 }
