@@ -5,8 +5,9 @@ body {
 /* navigation */ 
 
 .navbar-colour-edit {
+    position:fixed;
     background-color:#77e6b1;
-    box-shadow:1px 1px 3px 3px rgba(210,210,210,0.6);
+    box-shadow:3px 3px 2px 2px rgba(210,210,210,0.6);
 }
 
 /* profile page */ 
