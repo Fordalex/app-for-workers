@@ -26,6 +26,8 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"> </script>
     <!-- DC -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"> </script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
     <title>App For Workers</title>
 
@@ -33,7 +35,7 @@
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Profile navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-light navbar-colour-edit">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -41,21 +43,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <p class="m-0 text-light">AFW</p>
-        <a class="navbar-brand" href="#">Profile</a>
+        <a href="profile.html">
+            <img src="assets/images/woman-profile.jpg" style="border-radius:50%;" class="profile-nav-image">
+        </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="inbox.html">Inbox</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Saved</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">History</a>
                 </li>
@@ -63,18 +55,14 @@
                     <a class="nav-link" href="#">Settings</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
 
-    <!-- // Navigation -->
+    <!-- // Profile navigation -->
 
     <!-- Profile picture and information -->
 
-    <section class="p-3">
+    <section class="p-2">
         <div class="section-container">
             <div class="row m-0 p-0">
                 <div class="col-4 m-0 p-0">
@@ -93,7 +81,8 @@
             <div class="row m-0 p-0">
                 <div class="col-12 p-2 m-0">
                     <p class="m-0">I'm not very good at my job, Your probably best off asking someone else tbf...</p>
-                    <p class="m-0 p-0 d-flex justify-content-end text-black-50">See More<i class="ml-2 fas fa-sort-down"></i></p>
+                    <p class="m-0 p-0 d-flex justify-content-end text-black-50">See More<i
+                            class="ml-2 fas fa-sort-down"></i></p>
                 </div>
             </div>
         </div>
@@ -103,7 +92,7 @@
 
     <!-- Profile contact buttons and likes -->
 
-    <section class="pl-3 pr-3 pb-3">
+    <section class="pl-2 pr-2 pb-2">
         <div class="section-container">
             <div class="row p-2">
                 <div class="col-6">
@@ -111,51 +100,69 @@
                     <p class="m-0">Followers: <span class="text-black-50">55</span></p>
                 </div>
                 <div class="col-6">
-                    <p class="m-0">Jobs Completed: <span class="text-black-50">3</span</p> <p class="m-0">Reviews: <span
-                                class="text-black-50">2</span</p> </div> </div> </div> </section> <section
-                                    class="pl-3 pr-3">
-                                <div class="row m-0 p-0">
-                                    <div class="col-4 m-0 p-0 d-flex justify-content-start">
-                                        <div class="profile-buttons">
-                                            <i class="fas fa-mobile-alt profile-buttons-icon"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 m-0 p-0 d-flex justify-content-center">
-                                        <div class="profile-buttons">
-                                            <i class="far fa-envelope profile-buttons-icon"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 m-0 p-0 d-flex justify-content-end">
-                                        <div class="profile-buttons">
-                                            <i class="far fa-thumbs-up profile-buttons-icon"></i>
-                                        </div>
-                                    </div>
-                                </div>
+                    <p class="m-0">Jobs Completed: <span class="text-black-50">3</span></p>
+                    <p class="m-0">Reviews: <span class="text-black-50">2</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pl-2 pr-2">
+        <div class="row m-0 p-0">
+            <div class="col-4 m-0 p-0 d-flex justify-content-start">
+                <div class="profile-buttons">
+                    <i class="fas fa-mobile-alt profile-buttons-icon"></i>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0 d-flex justify-content-center">
+                <div class="profile-buttons">
+                    <i class="far fa-envelope profile-buttons-icon"></i>
+                </div>
+            </div>
+            <div class="col-4 m-0 p-0 d-flex justify-content-end">
+                <div class="profile-buttons">
+                    <i class="far fa-thumbs-up profile-buttons-icon"></i>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- //Profile contact buttons and likes -->
 
-    <section class="p-3">
+    <!-- portfolio -->
+
+    <div class="row m-0 p-0">
+        <div class="col-12 pl-2 pr-2 pt-2 m-0">
+            <div class="section-container p-2">
+                <h4>Portfolio
+                    <h4 />
+                    <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- //portfolio -->
+
+    <section class="p-2">
         <div class="row m-0 p-0">
             <div class="col-12 m-0 p-0">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9490.248411704666!2d-1.3431636528854678!3d53.51201739015133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879717e716b743d%3A0xb20d41f201007b3d!2sRotherham%20S63%205DJ!5e0!3m2!1sen!2suk!4v1569531637965!5m2!1sen!2suk"
-                    width="100%" height="100" frameborder="0" style="border:0; border-radius:10px;"
+                    width="100%" height="100" frameborder="0" style="border:0; border-radius:5px;"
                     allowfullscreen=""></iframe>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="row m-0 pl-3 pr-3 pb-3">
-            <div class="col-6 pl-0 pt-0 pr-2 pb-3 full-height">
+        <div class="row m-0 pl-2 pr-2 pb-2">
+            <div class="col-6 pl-0 pt-0 pr-1 full-height">
                 <div class="section-container pl-2 pt-1 pb-2 pr-2 full-height">
                     <h4 class="text-center">Photos</h4>
                     <img src="assets/images/lawyer-image.jpg" class="photo-review-image">
                 </div>
             </div>
-            <div class="col-6 pl-2 pt-0 pr-0 pb-3 full-height">
-                <div class="section-container pl-3 pt-1 pb-3 pr-3 full-height">
+            <div class="col-6 pl-1 pt-0 pr-0 full-height">
+                <div class="section-container p-2 full-height">
                     <h4 class="text-center">Reviews</h4>
                     <p class="m-0">Late a few times, but over all okay.</p>
                     <i class="fas fa-star primary-colour"></i>
@@ -168,32 +175,17 @@
         </div>
     </section>
 
-    <div class="row m-0 p-0">
-        <div class="col-12 p-3 m-0">
-            <div class="section-container">
-                <p>h</p>
-            </div>
-        </div>
+    <!-- Lower navigation -->
+
+    <!-- <i class="far fa-address-card bottom-nav-buttons"></i> -->
+
+    <div class="bottom-navigation d-flex justify-content-around">
+        <i class="fas fa-door-closed bottom-nav-buttons"></i>
+        <i class="far fa-envelope bottom-nav-buttons"></i>
+        <i class="far fa-address-book bottom-nav-buttons"></i>
     </div>
 
-    <!-- Footer -->
-
-    <div class="footer">
-        <div class="row m-0 p-0">
-            <div class="col-4">
-                <h5 class="m-0">AFW</h5>
-            </div>
-            <div class="col-8 d-flex justify-content-around align-items-center">
-                <i class="fab fa-facebook-square footer-icons"></i>
-                <i class="fab fa-instagram footer-icons"></i>
-                <i class="fab fa-twitter-square footer-icons"></i>
-                <i class="fab fa-pinterest-square footer-icons"></i>
-            </div>
-        </div>
-    </div>
-
-    <!-- // Footer -->
-
+    <!-- //Lower navigation -->
 
 
     <!-- link to javascript -->

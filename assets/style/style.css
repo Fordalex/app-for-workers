@@ -2,18 +2,22 @@ body {
     background: linear-gradient(to bottom, #ffffff 0%, #dedede 100%);
 }
 
-/* navigation */ 
-
-.navbar-colour-edit {
-    position:fixed;
-    background-color:#77e6b1;
-    box-shadow:3px 3px 2px 2px rgba(210,210,210,0.6);
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Merriweather', serif;
 }
 
-/* profile page */ 
+/* navigation */
+
+.navbar-colour-edit {
+    background-color:#77e6b1;
+    box-shadow:3px 3px 3px 3px rgba(210,210,210,0.6);
+    background: linear-gradient(to bottom, #40de92 0%, #32c07c 100%);
+}
+
+/* profile page */
 
 .profile-picture {
-    border-radius:10px 0px 0px 0px;    
+    border-radius:10px 0px 0px 0px;
     border:solid white 4px;
     border-right:none;
     border-bottom:none;
@@ -23,8 +27,10 @@ body {
 .section-container {
     width:100%;
     background-color:white;
-    border-radius:10px;
-    box-shadow:1px 1px 3px 3px rgba(210,210,210,0.6);
+    border-radius:5px;
+    background-color:white;
+    border:solid lightgray 1px;
+    /*box-shadow:3px 3px 3px 3px rgba(210,210,210,0.6);*/
 }
 
 .primary-colour {
@@ -50,18 +56,19 @@ body {
 }
 
 .profile-buttons {
-    border-radius:9px;
+    border-radius:5px;
     display:flex;
     justify-content:center;
     align-items:center;
-    width:92%;
+    width:95%;
     height:50px;
-    background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
-    
+    background-color:white;
+    border:solid lightgray 1px;
+
 }
 
 .profile-buttons-icon {
-    color:#77e6b1;
+    color:black;
     font-size:20px;
 }
 
@@ -83,7 +90,35 @@ body {
     border-radius:5px;
 }
 
+/* inbox.html */
 
+.message-container {
+    height:160px;
+    overflow:hidden;
+}
+
+/* bottom navigation */
+
+.bottom-navigation {
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:white;
+    border:solid gray 1px;
+    height:50px;
+    padding:13px;
+    z-index:50;
+}
+
+.bottom-nav-buttons {
+    font-size:25px;
+}
+
+.profile-nav-image {
+    width:30px;
+    height:30px;
+}
 
 /* footer */
 
