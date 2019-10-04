@@ -6,7 +6,7 @@
 
 ## Features left to implement
 
-## Thoughts
-
 ### 26/09/2019
 The customer should have to request to see the mobile number or email address any personal information shouldn't be left on display.
+
+new
